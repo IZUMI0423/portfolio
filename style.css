@@ -60,14 +60,13 @@ footer {
 
 #title nav {
     float: right;
-    padding-right: 50px;
-    padding-top: 25px;
+    padding-right: 10px 50px;
 }
 
 #title nav ul li {
     list-style: none;
     display: inline;
-    margin-right: 20px;
+    margin: 0px 20px;
     color: antiquewhite;
     padding-bottom: 8px;
     font-family: 'Sacramento', cursive;
@@ -75,8 +74,8 @@ footer {
 
 #title nav ul li a {
     color: antiquewhite;
-    font-size: 15px;
-    letter-spacing: 4px;
+    font-size: 25px;
+    letter-spacing: 5px;
     text-decoration: none;
     display: inline;
     padding-bottom: 10px;
