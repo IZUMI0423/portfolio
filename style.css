@@ -69,15 +69,15 @@ footer {
     margin: 0px 20px;
     color: antiquewhite;
     padding-bottom: 8px;
-    font-family: 'Sacramento', cursive;
+    font-family:  'Sacramento', cursive;
 }
 
 #title nav ul li a {
     color: antiquewhite;
     font-size: 25px;
-    letter-spacing: 5px;
     text-decoration: none;
     padding-bottom: 10px;
+    letter-spacing: 5px;
 }
 
 #title nav ul li a:hover {
@@ -449,4 +449,3 @@ footer h3{
 #ref-sentence{
     margin: 20px 100px 385px 100px;
 }
-
