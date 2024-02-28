@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<HTML lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>秋の空模様</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+
+<header class="fall">
+    <img src="../image/fall-head.jpg">
+</header>
+
+<body id="fall-page">
+    <div class="top">
+        <h1>秋の空</h1>
+        <p>「秋空」とも呼ばれる澄んだ青で高く見える空が特徴的です。</p>
+    </div>
+    <script src="../jquery.js"></script>
+    <script src="../jquery-ui-1.13.2/jquery-ui.js"></script>
+    <script>
+        $(function () {
+
+            $("#accordion").accordion();
+
+        });
+    </script>
+    <DIV id="accordion">
+
+        <H3 class="fall-title"><a href="#">波状雲</a></H3>
+        <DIV class="fall-part">
+            <div class="explain">
+                <P>
+                    「うろこ雲」「いわし雲」「さば雲」などは全て波状雲に分類されます。<br>
+                    気象学では「巻積雲」とも呼ばれ、春の気候にもよく見られる雲です。<br>
+                    影ができないことが特徴で、雲一つ一つが白色をしています。<br>
+                </P>
+                <img src="../image/kennsekiunn.jpg">
+            </div>
+        </DIV>
+
+        <H3 class="fall-title"><a href="#">高積雲</a></H3>
+        <DIV class="fall-part">
+            <div class="explain">
+                <P>
+                    「ひつじ雲」とも呼ばれています。<br>
+                    波状雲と似ていますが、一つ一つの塊が大きいことが特徴です。<br>
+                    低気圧や秋雨前線が近づいている時に現れる傾向があります。<br>
+                </P>
+                <img src="../image/kousekiun.jpg">
+            </div>
+        </DIV>
+
+        <H3 class="fall-title"><a href="#">穴あき雲</a></H3>
+        <DIV class="fall-part">
+            <div class="explain">
+                <P>
+                    波状雲や高積雲に穴があいた雲です。<br>
+                    雲の穴の中に細く風にたなびく「尾流雲」という雲が生まれることが特徴的です。<br>
+                    珍しい現象のため、見つけたら写真に収めておくことをおすすめします。<br>
+                </P>
+                <img src="../image/anaaki.jpg">
+            </div>
+        </DIV>
+
+    </DIV>
+    <nav class="back">
+        <a href="../index.html" onclick="history.back()" class="btn-border">戻る</a>
+    </nav>
+    <footer class="fall-foot">
+        <SMALL id="copy">copyright &copy; SORAZUKAN All Rights Reserved</SMALL>
+    </footer>
+</body>
+
+</html>
