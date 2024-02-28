@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<HTML lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>春の空模様</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+
+<header class="spring">
+    <img src="../image/spring-head.jpg">
+</header>
+
+<body id="spring-page">
+    <div class="top">
+        <h1>春の空</h1>
+        <p>春は空が白くかすみ、空全体がうっすらと曇る「花曇り」の日が多く見られます。</p>
+    </div>
+    <script src="../jquery.js"></script>
+    <script src="../jquery-ui-1.13.2/jquery-ui.js"></script>
+    <script>
+        $(function () {
+
+            $("#accordion").accordion();
+
+        });
+    </script>
+    <DIV id="accordion">
+
+        <H3 class="spring-title"><a href="#">高層雲</a></H3>
+        <DIV class="spring-part">
+            <div class="explain">
+                <P>
+                    空全体を薄く覆う雲のこと。<br>
+                    「おぼろぐも」とも呼ばれ名前のごとく太陽の位置がぼんやり分かる程度しか光を通しません。<br>
+                    時々雨を降らせます。<br>
+                </P>
+                <img src="../image/kousouun.jpg">
+            </div>
+        </DIV>
+
+        <H3 class="spring-title"><a href="#">層雲</a></H3>
+        <DIV class="spring-part">
+            <div class="explain">
+                <P>
+                    「きりぐも」とも呼ばれ、まれに霧雨を降らせます。<br>
+                    谷や盆地を覆うこともあり、それを高いところから眺めると「雲海」にもなります。<br>
+                    「雲海」は多くの人から人気のある絶景です。<br>
+                </P>
+                <img src="../image/souun.jpg">
+            </div>
+        </DIV>
+
+        <H3 class="spring-title"><a href="#">巻雲</a></H3>
+        <DIV class="spring-part">
+            <div class="explain">
+                <P>
+                    晴れの日の高度の高いところによく見られる雲です。<br>
+                    「すじぐも」とも呼ばれ、秋の気候にも見られやすい雲です。<br>
+                    一般に白色をしており、絹のような光沢を持っていることもあります。<br>
+                </P>
+                <img src="../image/suji.jpg">
+            </div>
+        </DIV>
+
+    </DIV>
+    <nav class="back">
+        <a href="../j221240.html" onclick="history.back()" class="btn-border">戻る</a>
+    </nav>
+    <footer class="spring-foot">
+        <SMALL id="copy">copyright &copy; SORAZUKAN All Rights Reserved</SMALL>
+    </footer>
+</body>
+
+</html>

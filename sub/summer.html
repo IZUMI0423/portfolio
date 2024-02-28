@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<HTML lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>夏の空模様</title>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+
+<header class="summer">
+    <img src="../image/summer-head.jpg">
+</header>
+
+<body id="summer-page">
+    <div class="top">
+        <h1>夏の空</h1>
+        <p>一年の中でも水蒸気が多い季節のため雲が発生しやすく、特徴的な雲が見られます。</p>
+    </div>
+    <script src="../jquery.js"></script>
+    <script src="../jquery-ui-1.13.2/jquery-ui.js"></script>
+    <script>
+        $(function () {
+
+            $("#accordion").accordion();
+
+        });
+    </script>
+    <DIV id="accordion">
+
+        <H3 class="summer-title"><a href="#">積雲</a></H3>
+        <DIV class="summer-part">
+            <div class="explain">
+                <P>
+                    「わたぐも」とも呼ばれています。<br>
+                    白くふわふわしており、上部に向かってモコモコと発達します。<br>
+                    「トイ・ストーリー」に出てくる雲として多くの人に知らずとも知られています<br>
+                </P>
+                <img src="../image/sekiun.jpg">
+            </div>
+        </DIV>
+
+        <H3 class="summer-title"><a href="#">積乱雲</a></H3>
+        <DIV class="summer-part">
+            <div class="explain">
+                <P>
+                    夏を象徴するときによく用いられている雲です。<br>
+                    「入道雲」とも呼ばれ、蒸し暑い夏の季節に激しい雨を降らせます。<br>
+                    遠目から見れば美しい姿をしていますが、かみなりを伴う危険な雲です。<br>
+                </P>
+                <img src="../image/sekiran.jpg">
+            </div>
+        </DIV>
+
+        <H3 class="summer-title"><a href="#">巻層雲</a></H3>
+        <DIV class="summer-part">
+            <div class="explain">
+                <P>
+                    「うすぐも」とも呼ばれます。<br>
+                    空全体にうすく雲が広がり、太陽や月の周りに「かさ」を作ります。<br>
+                    夏の終わりから秋にかけて見ることができます。<br>
+                </P>
+                <img src="../image/kensou.jpg">
+            </div>
+        </DIV>
+
+    </DIV>
+    <nav class="back">
+        <a href="../j221240.html" onclick="history.back()" class="btn-border">戻る</a>
+    </nav>
+    <footer class="summer-foot">
+        <SMALL id="copy">copyright &copy; SORAZUKAN All Rights Reserved</SMALL>
+    </footer>
+</body>
+
+</html>
