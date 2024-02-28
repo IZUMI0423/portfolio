@@ -1,0 +1,406 @@
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    font-family: 'Sacramento', cursive;
+    color: #fff;
+    text-shadow: 0 0 15px #666;
+    font-size: 50px;
+}
+
+#title nav {
+    float: right;
+    padding-right: 50px;
+    padding-top: 25px;
+}
+
+#title nav ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    color: antiquewhite;
+    padding-bottom: 8px;
+    font-family: Arial;
+}
+
+#title nav ul li a {
+    color: antiquewhite;
+    font-size: 15px;
+    letter-spacing: 4px;
+    text-decoration: none;
+    display: inline;
+    padding-bottom: 10px;
+}
+
+#title nav ul li a:hover {
+    color: antiquewhite;
+    border-bottom:solid 1px antiquewhite;
+}
+
+#main {
+    background: #fff;
+    width: 100%;
+    padding: 150px 0px;
+    background-image: url(image/back.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+#side-left img{
+    display: inline;
+    z-index: -3;
+}
+
+.top-sentence {
+    max-width: 590px;
+    margin: auto;
+    padding-bottom: 100px;
+    font-family: "Yu Gothic";
+}
+
+.top-sentence h3 {
+    font-weight: normal;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.top-sentence p {
+    font-weight: normal;
+    text-align: left;
+    line-height: 100px;
+    font-size: 25px;
+}
+
+.main-menu {
+    width: 100%;
+    /*margin: auto;*/
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+
+.main-menu #menu {
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: normal;
+    letter-spacing: 4px;
+}
+
+.main-menu #sub {
+    font-family: "Yu Gothic";
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 4px;
+}
+
+.main-menu #season {
+    padding-top: 50px;
+}
+
+.main-menu #season ul li {
+    list-style: none;
+    display: inline;
+}
+
+.main-menu #season ul li a {
+    color: #666;
+    font-size: 45px;
+    letter-spacing: 10px;
+    text-decoration: none;
+    display: inline;
+    padding: 50px;
+    margin: auto;
+    width: 100%;
+}
+
+.main-menu #season ul li a:hover {
+    color: #666;
+    font-size: 45px;
+    letter-spacing: 10px;
+    text-decoration: none;
+    display: inline;
+    padding: 50px;
+    margin: auto;
+    width: 100%;
+}
+
+.main-menu #spring a {
+    background-image: url(image/spring.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: center;
+}
+
+.main-menu #spring a:hover {
+    background-image: url(image/spring2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: center;
+}
+
+.main-menu #summer a {
+    background-image: url(image/summer.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: center;
+}
+
+.main-menu #summer a:hover {
+    background-image: url(image/summer2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: center;
+}
+
+.main-menu #fall a {
+    background-image: url(image/fall.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: center;
+}
+
+.main-menu #fall a:hover {
+    background-image: url(image/fall2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: center;
+}
+
+.main-menu #winter a {
+    background-image: url(image/winter.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: center;
+}
+
+.main-menu #winter a:hover {
+    background-image: url(image/winter2.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    text-align: center;
+}
+
+#top-footer{
+    background-color: #888888;
+}
+
+#top-footer #copy{
+    color: #fff;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 0px;
+    background-color: #fff;
+}
+
+#reference{
+    padding: 20px 0px;
+}
+
+#reference li{
+    list-style: none;
+    display: inline;
+    border-left:solid 1px #fff;
+    border-right:solid 1px #fff;
+}
+
+#reference li a{
+    margin: 0px 25px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+    border: left 3px #fff;
+}
+
+#reference li a:hover{
+    margin: 0px 25px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+    border: left 3px #fff;
+    border-bottom:solid 1px #fff;
+}
+    
+
+footer h3{
+    font-size: 30px;
+}
+
+
+/*メインメニュー*/
+/*spring.html------------------*/
+.spring img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.spring-title {
+    background-color: #ffd5ec;
+}
+
+.spring-part {
+    border-bottom: 1px solid #ff97c2;
+}
+
+.spring-foot{
+    background-color: #666;
+    color: #fff;
+}
+
+/*summer.html------------------*/
+.summer img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.summer-title {
+    background-color: #ccffff;
+}
+
+.summer-part {
+    border-bottom: 1px solid #75a9ff;
+}
+
+.summer-foot{
+    background-color: #000066;
+    color: #fff;
+}
+
+/*fall.html------------------*/
+.fall img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.fall-title {
+    background-color: #f0e68c;
+}
+
+.fall-part {
+    border-bottom: 1px solid #ff4f02;
+}
+
+.fall-foot{
+    background-color: #440000;
+    color: #fff;
+}
+
+/*winter.html------------------*/
+.winter img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.winter-title {
+    background-color: #ead9ff;
+}
+
+.winter-part {
+    border-bottom: 1px solid #9932cc;
+}
+
+.winter-foot{
+    background-color: #483d8b;
+    color: #fff;
+}
+
+
+/*common----------------------*/
+.top {
+    background: #fff;
+    width: 100%;
+    padding: 0px 0px 80px 0px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.top h1 {
+    color: #666;
+    font-weight: normal;
+    font-size: 80px;
+}
+
+.top p {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #666;
+}
+
+#accordion {
+    margin: 0px auto;
+    width: 700px;
+    height: 500px;
+    line-height: 50px;
+}
+
+#accordion h3 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 10px 0px;
+    padding-left: 5px;
+}
+
+#accordion h3 a {
+    text-decoration: none;
+    color: #003333;
+}
+
+#accordion .explain {
+    display: flex;
+    text-align: center;
+    line-height: 35px;
+}
+
+#accordion .explain img {
+    width: 40%;
+    height: 90%;
+    overflow: hidden;
+    float: right;
+}
+
+#accordion .explain p {
+    margin: 0px 80px 0px 0px;
+    padding: 5px 0px 0px 0px;
+    width: 60%;
+    text-align: left;
+}
+
+.back {
+    text-align: center;
+    margin: 0px 0px 100px 0px;
+}
+
+.back a {
+    font-size: 20px;
+    padding: 5px 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+.back a.btn-border:hover {
+    color: #fff;
+    background: #000;
+}
+
+.back a.btn-border {
+    border: 2px solid #000;
+    border-radius: 0;
+    background: #fff;
+}
+
+
+/*reference.html------------------*/
+#ref-sentence{
+    margin: 20px 100px 385px 100px;
+}
