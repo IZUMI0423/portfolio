@@ -60,7 +60,7 @@ footer {
 
 #title nav {
     float: right;
-    padding-right: 10px 50px;
+    padding: 10px 50px;
 }
 
 #title nav ul li {
